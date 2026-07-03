@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="nns89wX_rE3mbSIz6B1D">
-    <mxGraphModel dx="1708" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1703" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,6 +24,14 @@
         </mxCell>
         <mxCell id="2GqgJRAho-5jh9GEVmOn-52" parent="2GqgJRAho-5jh9GEVmOn-26" style="ellipse;html=1;shape=endState;fillColor=#f8cecc;strokeColor=#b85450;" value="Fin" vertex="1">
           <mxGeometry height="30" width="30" x="125" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="M00v5IDu9LKWa_t6qlpg-3" edge="1" parent="2GqgJRAho-5jh9GEVmOn-26" source="M00v5IDu9LKWa_t6qlpg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="1305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M00v5IDu9LKWa_t6qlpg-4" parent="2GqgJRAho-5jh9GEVmOn-26" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#b85450;" value="A" vertex="1">
+          <mxGeometry height="40" width="40" x="15" y="1285" as="geometry" />
         </mxCell>
         <mxCell id="2GqgJRAho-5jh9GEVmOn-27" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Analista DRPT" vertex="1">
           <mxGeometry height="1440" width="280" x="280" as="geometry" />
@@ -72,7 +80,7 @@
         <mxCell id="ixayHF14HZIp8NoTV6t4-97" parent="2GqgJRAho-5jh9GEVmOn-27" style="rounded=0;whiteSpace=wrap;html=1;" value="Graba el registro de tarjeta DRPT-13" vertex="1">
           <mxGeometry height="60" width="110" x="85" y="1240" as="geometry" />
         </mxCell>
-        <mxCell id="2GqgJRAho-5jh9GEVmOn-28" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Sistema SIGSS" vertex="1">
+        <mxCell id="2GqgJRAho-5jh9GEVmOn-28" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Sistema RUAP" vertex="1">
           <mxGeometry height="1440" width="480" x="560" as="geometry" />
         </mxCell>
         <mxCell id="2GqgJRAho-5jh9GEVmOn-79" edge="1" parent="2GqgJRAho-5jh9GEVmOn-28" source="2GqgJRAho-5jh9GEVmOn-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
@@ -96,7 +104,7 @@
         <mxCell id="2GqgJRAho-5jh9GEVmOn-55" parent="2GqgJRAho-5jh9GEVmOn-28" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿Credenciales&lt;div&gt;correctas?&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="80" x="100" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="2GqgJRAho-5jh9GEVmOn-41" parent="2GqgJRAho-5jh9GEVmOn-28" style="rounded=0;whiteSpace=wrap;html=1;" value="Ingresa al sistema SIGSS con sus credenciales" vertex="1">
+        <mxCell id="2GqgJRAho-5jh9GEVmOn-41" parent="2GqgJRAho-5jh9GEVmOn-28" style="rounded=0;whiteSpace=wrap;html=1;" value="Ingresa al sistema RUAP con sus credenciales" vertex="1">
           <mxGeometry height="60" width="110" x="85" y="140" as="geometry" />
         </mxCell>
         <mxCell id="2GqgJRAho-5jh9GEVmOn-56" edge="1" parent="2GqgJRAho-5jh9GEVmOn-28" source="2GqgJRAho-5jh9GEVmOn-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2GqgJRAho-5jh9GEVmOn-55" value="">
@@ -184,11 +192,19 @@
         <mxCell id="ixayHF14HZIp8NoTV6t4-55" parent="2GqgJRAho-5jh9GEVmOn-28" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;Empresa&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="310" y="800" as="geometry" />
         </mxCell>
+        <mxCell id="M00v5IDu9LKWa_t6qlpg-1" edge="1" parent="2GqgJRAho-5jh9GEVmOn-28" source="ixayHF14HZIp8NoTV6t4-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ixayHF14HZIp8NoTV6t4-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M00v5IDu9LKWa_t6qlpg-2" connectable="0" parent="M00v5IDu9LKWa_t6qlpg-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.492" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ixayHF14HZIp8NoTV6t4-74" parent="2GqgJRAho-5jh9GEVmOn-28" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿Seleccionó tipo de incidencia?" vertex="1">
           <mxGeometry height="80" width="80" x="260" y="870" as="geometry" />
         </mxCell>
-        <mxCell id="ixayHF14HZIp8NoTV6t4-80" parent="2GqgJRAho-5jh9GEVmOn-28" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Tipos de incidencias&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Cambio de nombre&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Cambio de dirección&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Cambio de NIT&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Cambio de teléfono&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Representante legal&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Cambio de estado&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Cambio base legal&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Cambio delegación&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Cambio municipio&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Cambio departamento&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="210" width="110" x="360" y="860" as="geometry" />
+        <mxCell id="ixayHF14HZIp8NoTV6t4-80" parent="2GqgJRAho-5jh9GEVmOn-28" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-top:0cm;margin-right:2.5pt;margin-bottom:.25pt;&amp;lt;br/&amp;gt;margin-left:-.25pt;text-indent:-.5pt;line-height:104%&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 8px; text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Nombre de razon social&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;line-height: 104%;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 8px; text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Cambio nombre comercial&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Modificación de fecha de Declaratoria formal de Inscripcion&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: -0.666667px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cambio&lt;/span&gt;&lt;span style=&quot;text-indent: -0.666667px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-indent: -0.5pt;&quot;&gt;dirección&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: -0.666667px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cambio&lt;/span&gt;&lt;span style=&quot;text-indent: -0.666667px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-indent: -0.5pt;&quot;&gt;correo&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: -0.666667px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cambio&lt;/span&gt;&lt;span style=&quot;text-indent: -0.666667px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-indent: -0.5pt;&quot;&gt;teléfono&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: -0.666667px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cambio&lt;/span&gt;&lt;span style=&quot;text-indent: -0.666667px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-indent: -0.5pt;&quot;&gt;representante legal&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Modificación IRTRA&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Modificación INTECAP&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: -0.666667px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cambio&lt;/span&gt;&lt;span style=&quot;text-indent: -0.666667px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-indent: -0.5pt;&quot;&gt;de NIT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Suspensión&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Cese de patrono&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Suspensión operativo PEI&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Anulacion&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Cese de contrato adherido&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Renaudacion&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Ubicación geográfica&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-indent: -0.5pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Cese de contrato sin establecimiento&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="300" width="130" x="350" y="860" as="geometry" />
         </mxCell>
         <mxCell id="ixayHF14HZIp8NoTV6t4-87" edge="1" parent="2GqgJRAho-5jh9GEVmOn-28" source="ixayHF14HZIp8NoTV6t4-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ixayHF14HZIp8NoTV6t4-86" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -210,6 +226,17 @@
         </mxCell>
         <mxCell id="ixayHF14HZIp8NoTV6t4-102" parent="2GqgJRAho-5jh9GEVmOn-28" style="rounded=0;whiteSpace=wrap;html=1;" value="Genera constancia&amp;nbsp; de registro" vertex="1">
           <mxGeometry height="60" width="110" x="85" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="ixayHF14HZIp8NoTV6t4-93" edge="1" parent="2GqgJRAho-5jh9GEVmOn-28" source="ixayHF14HZIp8NoTV6t4-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ixayHF14HZIp8NoTV6t4-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-70" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixayHF14HZIp8NoTV6t4-94" connectable="0" parent="ixayHF14HZIp8NoTV6t4-93" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.8468" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2GqgJRAho-5jh9GEVmOn-38" edge="1" parent="1" source="2GqgJRAho-5jh9GEVmOn-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2GqgJRAho-5jh9GEVmOn-37" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -285,19 +312,6 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ixayHF14HZIp8NoTV6t4-93" edge="1" parent="1" source="ixayHF14HZIp8NoTV6t4-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ixayHF14HZIp8NoTV6t4-91">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="700" y="1170" />
-            </Array>
-            <mxPoint x="490" y="1170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ixayHF14HZIp8NoTV6t4-94" connectable="0" parent="ixayHF14HZIp8NoTV6t4-93" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
-          <mxGeometry relative="1" x="-0.8468" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ixayHF14HZIp8NoTV6t4-96" edge="1" parent="1" source="ixayHF14HZIp8NoTV6t4-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ixayHF14HZIp8NoTV6t4-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -311,15 +325,6 @@
         </mxCell>
         <mxCell id="ixayHF14HZIp8NoTV6t4-101" edge="1" parent="1" source="ixayHF14HZIp8NoTV6t4-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ixayHF14HZIp8NoTV6t4-99">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ixayHF14HZIp8NoTV6t4-104" edge="1" parent="1" source="ixayHF14HZIp8NoTV6t4-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ixayHF14HZIp8NoTV6t4-106" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ixayHF14HZIp8NoTV6t4-105" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#b85450;" value="A" vertex="1">
-          <mxGeometry height="40" width="40" x="1210" y="370" as="geometry" />
-        </mxCell>
-        <mxCell id="ixayHF14HZIp8NoTV6t4-106" parent="1" style="ellipse;html=1;shape=endState;fillColor=#f8cecc;strokeColor=#b85450;" value="Fin" vertex="1">
-          <mxGeometry height="30" width="30" x="1320" y="375" as="geometry" />
         </mxCell>
         <mxCell id="ixayHF14HZIp8NoTV6t4-107" edge="1" parent="1" source="ixayHF14HZIp8NoTV6t4-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="2GqgJRAho-5jh9GEVmOn-52">
           <mxGeometry relative="1" as="geometry">
