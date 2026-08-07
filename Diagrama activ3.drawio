@@ -1,0 +1,154 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="pdvZ9eWtRgVioETg6ZuE">
+    <mxGraphModel dx="2290" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="In3-yQBQodc-6LobtFZY-2" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=370;height=30;align=left;" value="Diagrama de Actividades&lt;div&gt;Modificación de tipo de inscripción del patrono&lt;/div&gt;" vertex="1">
+          <mxGeometry height="920" width="820" x="-570" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-3" parent="In3-yQBQodc-6LobtFZY-2" style="swimlane;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#7EA6E0;rounded=1;shadow=1;glass=1;swimlaneLine=0;" value="Analista" vertex="1">
+          <mxGeometry height="881" width="325" x="10" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-4" edge="1" parent="In3-yQBQodc-6LobtFZY-3" source="In3-yQBQodc-6LobtFZY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="In3-yQBQodc-6LobtFZY-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-5" parent="In3-yQBQodc-6LobtFZY-3" style="ellipse;fillColor=#97D077;html=1;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="120" y="29" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-6" edge="1" parent="In3-yQBQodc-6LobtFZY-3" source="In3-yQBQodc-6LobtFZY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="In3-yQBQodc-6LobtFZY-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-7" parent="In3-yQBQodc-6LobtFZY-3" style="rounded=0;whiteSpace=wrap;html=1;" value="Ingresa al sistema SIGSS y selecciona Modificación de Patronos" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-8" parent="In3-yQBQodc-6LobtFZY-3" style="rounded=0;whiteSpace=wrap;html=1;" value="Busca al patrono a través del CUP" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-11" parent="In3-yQBQodc-6LobtFZY-3" style="rounded=0;whiteSpace=wrap;html=1;" value="Selecciona el nuevo tipo de inscripción" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-12" parent="In3-yQBQodc-6LobtFZY-3" style="rounded=0;whiteSpace=wrap;html=1;" value="Guarda los cambios." vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="631" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-10" edge="1" parent="In3-yQBQodc-6LobtFZY-3" source="In3-yQBQodc-6LobtFZY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="In3-yQBQodc-6LobtFZY-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-13" edge="1" parent="In3-yQBQodc-6LobtFZY-3" source="In3-yQBQodc-6LobtFZY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="In3-yQBQodc-6LobtFZY-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210.33333333333337" y="611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pFnhC739rPARwGd8ooBR-3" parent="In3-yQBQodc-6LobtFZY-3" style="rounded=0;whiteSpace=wrap;html=1;" value="El sistema muestra el tipo de inscripción actual." vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="471" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-14" parent="In3-yQBQodc-6LobtFZY-2" style="swimlane;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#4D9900;rounded=1;shadow=1;glass=1;swimlaneLine=0;" value="Sistema" vertex="1">
+          <mxGeometry height="881" width="475" x="335" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-15" parent="In3-yQBQodc-6LobtFZY-14" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffff88;strokeColor=#36393d;" value="¿Que desea modificar?" vertex="1">
+          <mxGeometry height="75" width="130" x="140" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-35" parent="In3-yQBQodc-6LobtFZY-14" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffff88;strokeColor=#36393d;" value="¿El tipo de inscripción cambió?" vertex="1">
+          <mxGeometry height="75" width="130" x="149" y="623.5" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-33" edge="1" parent="In3-yQBQodc-6LobtFZY-14" source="In3-yQBQodc-6LobtFZY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="In3-yQBQodc-6LobtFZY-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324" y="631" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-34" connectable="0" parent="In3-yQBQodc-6LobtFZY-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-38" parent="In3-yQBQodc-6LobtFZY-14" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#000000;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;El sistema muestra mensaje:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;No se realizaron modificaciones en la información&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="120" x="345" y="623.5" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-36" edge="1" parent="In3-yQBQodc-6LobtFZY-14" source="In3-yQBQodc-6LobtFZY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="In3-yQBQodc-6LobtFZY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-37" connectable="0" parent="In3-yQBQodc-6LobtFZY-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Si" vertex="1">
+          <mxGeometry relative="1" x="-0.1391" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-17" parent="In3-yQBQodc-6LobtFZY-14" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#000000;" value="Actualiza el tipo de inscripción seleccionado." vertex="1">
+          <mxGeometry height="60" width="120" x="159" y="751" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-29" parent="In3-yQBQodc-6LobtFZY-14" style="ellipse;html=1;shape=endState;fillColor=#FF6666;strokeColor=#000000;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Fin&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="30" x="206" y="841" as="geometry" />
+        </mxCell>
+        <mxCell id="pFnhC739rPARwGd8ooBR-4" parent="In3-yQBQodc-6LobtFZY-14" style="rounded=0;whiteSpace=wrap;html=1;" value="Selecciona&lt;div&gt;&quot;Modificar tipo de Inscripción&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="471" as="geometry" />
+        </mxCell>
+        <mxCell id="pFnhC739rPARwGd8ooBR-5" edge="1" parent="In3-yQBQodc-6LobtFZY-14" source="In3-yQBQodc-6LobtFZY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.487;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" target="In3-yQBQodc-6LobtFZY-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-42" edge="1" parent="In3-yQBQodc-6LobtFZY-2" source="In3-yQBQodc-6LobtFZY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="In3-yQBQodc-6LobtFZY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CqybKWTp8qpkgtEvfL_y-10" edge="1" parent="In3-yQBQodc-6LobtFZY-2" source="In3-yQBQodc-6LobtFZY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="380" />
+              <mxPoint x="140" y="380" />
+            </Array>
+            <mxPoint x="140" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CqybKWTp8qpkgtEvfL_y-11" connectable="0" parent="CqybKWTp8qpkgtEvfL_y-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Establecimiento" vertex="1">
+          <mxGeometry relative="1" x="0.1539" as="geometry">
+            <mxPoint x="157" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CqybKWTp8qpkgtEvfL_y-14" edge="1" parent="In3-yQBQodc-6LobtFZY-2" source="In3-yQBQodc-6LobtFZY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="296.5" />
+              <mxPoint x="625" y="470" />
+              <mxPoint x="140" y="470" />
+            </Array>
+            <mxPoint x="140" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pFnhC739rPARwGd8ooBR-1" connectable="0" parent="CqybKWTp8qpkgtEvfL_y-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20connectable%3D%220%22%20parent%3D%221%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20value%3D%22Contrato%22%20vertex%3D%221%22%3E%3CmxGeometry%20x%3D%22-412.8570153065293%22%20y%3D%22547.0000000000002%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2016" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pFnhC739rPARwGd8ooBR-2" connectable="0" parent="CqybKWTp8qpkgtEvfL_y-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Contrato" vertex="1">
+          <mxGeometry relative="1" x="0.2498" y="-2" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CqybKWTp8qpkgtEvfL_y-16" edge="1" parent="In3-yQBQodc-6LobtFZY-2" source="In3-yQBQodc-6LobtFZY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CqybKWTp8qpkgtEvfL_y-17" connectable="0" parent="CqybKWTp8qpkgtEvfL_y-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Patrono" vertex="1">
+          <mxGeometry relative="1" x="-0.7841" y="2" as="geometry">
+            <mxPoint x="-21" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-49" edge="1" parent="In3-yQBQodc-6LobtFZY-2" source="In3-yQBQodc-6LobtFZY-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="In3-yQBQodc-6LobtFZY-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-40" edge="1" parent="In3-yQBQodc-6LobtFZY-2" source="pFnhC739rPARwGd8ooBR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="In3-yQBQodc-6LobtFZY-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="534" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In3-yQBQodc-6LobtFZY-41" edge="1" parent="In3-yQBQodc-6LobtFZY-2" source="In3-yQBQodc-6LobtFZY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="In3-yQBQodc-6LobtFZY-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CqybKWTp8qpkgtEvfL_y-23" edge="1" parent="In3-yQBQodc-6LobtFZY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="540" as="sourcePoint" />
+            <mxPoint x="474" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
