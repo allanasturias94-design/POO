@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="xj29s7qCEG6OSnq9ewor">
+    <mxGraphModel dx="1116" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XcOr1z_NjemHWAv5fobX-9" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#cce5ff;strokeColor=#36393d;" value="Analista" vertex="1">
+          <mxGeometry height="120" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-21" edge="1" parent="XcOr1z_NjemHWAv5fobX-9" source="XcOr1z_NjemHWAv5fobX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XcOr1z_NjemHWAv5fobX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-15" parent="XcOr1z_NjemHWAv5fobX-9" style="rounded=0;whiteSpace=wrap;html=1;" value="Solicitud recibida modificación y/o actualización." vertex="1">
+          <mxGeometry height="39" width="110" x="90" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-17" edge="1" parent="XcOr1z_NjemHWAv5fobX-9" source="XcOr1z_NjemHWAv5fobX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XcOr1z_NjemHWAv5fobX-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-16" parent="XcOr1z_NjemHWAv5fobX-9" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#cdeb8b;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="31" width="31" x="30" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-28" edge="1" parent="XcOr1z_NjemHWAv5fobX-9" source="XcOr1z_NjemHWAv5fobX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XcOr1z_NjemHWAv5fobX-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-29" connectable="0" parent="XcOr1z_NjemHWAv5fobX-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.0074" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-20" parent="XcOr1z_NjemHWAv5fobX-9" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffff88;strokeColor=#36393d;" value="¿No. Patronal &amp;gt;123,584?" vertex="1">
+          <mxGeometry height="90.06" width="120" x="270" y="13.470000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-32" edge="1" parent="XcOr1z_NjemHWAv5fobX-9" source="XcOr1z_NjemHWAv5fobX-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-27" parent="XcOr1z_NjemHWAv5fobX-9" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffff88;strokeColor=#36393d;" value="¿Tipo de operación?&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;≤123,584&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90.06" width="120" x="480" y="14.970000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-10" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="RUAP" vertex="1">
+          <mxGeometry height="120" width="820" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-22" parent="XcOr1z_NjemHWAv5fobX-10" style="rounded=0;whiteSpace=wrap;html=1;" value="Registro de Operaciones (Supensión, Cancelacion, Anulación y Reanudación)" vertex="1">
+          <mxGeometry height="59.5" width="150" x="255" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-11" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="SIIPA" vertex="1">
+          <mxGeometry height="120" width="820" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-30" parent="XcOr1z_NjemHWAv5fobX-11" style="rounded=0;whiteSpace=wrap;html=1;" value="Resoluciones&amp;nbsp;&lt;div&gt;(Cancelación, Anulación y Modificación)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="59.5" width="150" x="465" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-12" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="AS400" vertex="1">
+          <mxGeometry height="120" width="820" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-33" parent="XcOr1z_NjemHWAv5fobX-12" style="rounded=0;whiteSpace=wrap;html=1;" value="Patronos&lt;div&gt;Comando 63&lt;br&gt;&lt;div&gt;(Suspensiones)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="59.5" width="150" x="610" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-23" edge="1" parent="1" source="XcOr1z_NjemHWAv5fobX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XcOr1z_NjemHWAv5fobX-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-26" connectable="0" parent="XcOr1z_NjemHWAv5fobX-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SI" vertex="1">
+          <mxGeometry relative="1" x="-0.3294" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-31" edge="1" parent="1" source="XcOr1z_NjemHWAv5fobX-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XcOr1z_NjemHWAv5fobX-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
