@@ -19,8 +19,19 @@
         <mxCell id="XcOr1z_NjemHWAv5fobX-16" parent="XcOr1z_NjemHWAv5fobX-9" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#cdeb8b;strokeColor=#36393d;" value="" vertex="1">
           <mxGeometry height="31" width="31" x="30" y="43" as="geometry" />
         </mxCell>
-        <mxCell id="XcOr1z_NjemHWAv5fobX-20" parent="XcOr1z_NjemHWAv5fobX-9" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffff88;strokeColor=#36393d;" value="¿No. Patronal &amp;gt;123,584?" vertex="1">
+        <mxCell id="VbR6r80VQDvvEUZX_13E-19" edge="1" parent="XcOr1z_NjemHWAv5fobX-9" source="XcOr1z_NjemHWAv5fobX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VbR6r80VQDvvEUZX_13E-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VbR6r80VQDvvEUZX_13E-20" connectable="0" parent="VbR6r80VQDvvEUZX_13E-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.0809" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XcOr1z_NjemHWAv5fobX-20" parent="XcOr1z_NjemHWAv5fobX-9" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffff88;strokeColor=#36393d;" value="¿Número Patronal &amp;gt;123,584?" vertex="1">
           <mxGeometry height="90.06" width="120" x="270" y="13.470000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="VbR6r80VQDvvEUZX_13E-18" parent="XcOr1z_NjemHWAv5fobX-9" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffff88;strokeColor=#36393d;" value="¿Tipo de operación?" vertex="1">
+          <mxGeometry height="90.06" width="120" x="470" y="13.469999999999999" as="geometry" />
         </mxCell>
         <mxCell id="XcOr1z_NjemHWAv5fobX-10" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#FFE599;strokeColor=#36393d;" value="RUAP" vertex="1">
           <mxGeometry height="120" width="770" x="29" y="120" as="geometry" />
@@ -32,28 +43,15 @@
           <mxGeometry height="120" width="770" x="29" y="240" as="geometry" />
         </mxCell>
         <mxCell id="XcOr1z_NjemHWAv5fobX-30" parent="XcOr1z_NjemHWAv5fobX-11" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Resoluciones&amp;nbsp;&lt;/b&gt;&lt;div&gt;(Cancelación, Anulación y Modificación)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="59.5" width="150" x="465" y="20" as="geometry" />
+          <mxGeometry height="59.5" width="150" x="455" y="30.25" as="geometry" />
         </mxCell>
         <mxCell id="XcOr1z_NjemHWAv5fobX-12" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#FFE599;strokeColor=#36393d;" value="AS400" vertex="1">
           <mxGeometry height="120" width="770" x="29" y="360" as="geometry">
             <mxRectangle height="70" width="40" y="360" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VbR6r80VQDvvEUZX_13E-13" edge="1" parent="XcOr1z_NjemHWAv5fobX-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.536;exitY=0.984;exitDx=0;exitDy=0;exitPerimeter=0;" target="VbR6r80VQDvvEUZX_13E-14" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="687.4" y="110" />
-              <mxPoint x="330" y="110" />
-            </Array>
-            <mxPoint x="687.4000000000001" y="98.548" as="sourcePoint" />
-            <mxPoint x="327" y="84" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="XcOr1z_NjemHWAv5fobX-33" parent="XcOr1z_NjemHWAv5fobX-12" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Patronos&lt;/b&gt;&lt;div&gt;Comando 63&lt;br&gt;&lt;div&gt;(Suspensiones)&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="59.5" width="150" x="610" y="40" as="geometry" />
-        </mxCell>
-        <mxCell id="VbR6r80VQDvvEUZX_13E-14" parent="XcOr1z_NjemHWAv5fobX-12" style="ellipse;html=1;shape=endState;fillColor=#ffcccc;strokeColor=#36393d;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="315" y="54" as="geometry" />
         </mxCell>
         <mxCell id="XcOr1z_NjemHWAv5fobX-23" edge="1" parent="1" source="XcOr1z_NjemHWAv5fobX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XcOr1z_NjemHWAv5fobX-22" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -63,37 +61,24 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XcOr1z_NjemHWAv5fobX-31" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XcOr1z_NjemHWAv5fobX-30">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="569" y="105.02999999999997" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VbR6r80VQDvvEUZX_13E-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;p&gt;El presente diagrama muestra el flujo actual del negocio, en el cual se evidencia una distribución del proceso entre los sistemas RUAP, SIIPA y AS400. Para los números patronales dentro del rango de 1 a 123,584, cuando la operación corresponde a una suspensión, el analista debe realizar la gestión en AS400 mediante Patronos Comando 63, mientras que otras operaciones se gestionan en los sistemas correspondientes, generando la intervención de diferentes sistemas para completar el proceso.&lt;/p&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="VbR6r80VQDvvEUZX_13E-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;p&gt;El presente diagrama muestra el flujo actual del negocio, en el cual se evidencia una distribución del proceso entre los sistemas RUAP, SIIPA y AS400. Para los números patronales dentro del rango de 1 a 123,584, cuando la operación corresponde a una suspensión, el analista debe realizar la gestión en AS400 mediante Patronos Comando 63, mientras que otras operaciones se gestionan en los sistemas correspondientes, generando una dependencia de diferentes sistemas para la ejecución de las operaciones.&lt;/p&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="361.5" x="30" y="-130" as="geometry" />
         </mxCell>
-        <mxCell id="XcOr1z_NjemHWAv5fobX-28" edge="1" parent="1" source="XcOr1z_NjemHWAv5fobX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XcOr1z_NjemHWAv5fobX-30" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="509.04594638057347" y="60.0344827586207" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="VbR6r80VQDvvEUZX_13E-21" edge="1" parent="1" source="VbR6r80VQDvvEUZX_13E-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XcOr1z_NjemHWAv5fobX-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VbR6r80VQDvvEUZX_13E-5" connectable="0" parent="XcOr1z_NjemHWAv5fobX-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20connectable%3D%220%22%20parent%3D%221%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20value%3D%22NO%22%20vertex%3D%221%22%3E%3CmxGeometry%20x%3D%22540.9999999999998%22%20y%3D%2282.97702680971315%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.7279" as="geometry">
+        <mxCell id="VbR6r80VQDvvEUZX_13E-22" connectable="0" parent="VbR6r80VQDvvEUZX_13E-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;Cancelación, Anulación, Modificación&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1654" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VbR6r80VQDvvEUZX_13E-10" edge="1" parent="1" source="XcOr1z_NjemHWAv5fobX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="XcOr1z_NjemHWAv5fobX-33">
+        <mxCell id="VbR6r80VQDvvEUZX_13E-23" edge="1" parent="1" source="VbR6r80VQDvvEUZX_13E-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.539;entryY=0.069;entryDx=0;entryDy=0;entryPerimeter=0;" target="XcOr1z_NjemHWAv5fobX-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VbR6r80VQDvvEUZX_13E-11" connectable="0" parent="VbR6r80VQDvvEUZX_13E-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
-          <mxGeometry relative="1" x="-0.8368" y="-1" as="geometry">
+        <mxCell id="VbR6r80VQDvvEUZX_13E-24" connectable="0" parent="VbR6r80VQDvvEUZX_13E-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Suspensión" vertex="1">
+          <mxGeometry relative="1" x="-0.0384" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="VbR6r80VQDvvEUZX_13E-15" edge="1" parent="1" source="XcOr1z_NjemHWAv5fobX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VbR6r80VQDvvEUZX_13E-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VbR6r80VQDvvEUZX_13E-17" edge="1" parent="1" source="XcOr1z_NjemHWAv5fobX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="VbR6r80VQDvvEUZX_13E-14">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
