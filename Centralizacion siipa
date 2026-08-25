@@ -1,29 +1,34 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="GhLkT2j8EaJFmvtAisZ2">
-    <mxGraphModel dx="1116" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1348" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-3" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" value="Analista" vertex="1">
-          <mxGeometry height="140" width="696" x="66" y="120" as="geometry" />
+          <mxGeometry height="140" width="754" x="30" y="120" as="geometry" />
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-13" edge="1" parent="4pTZ_1JjUj0EYrdoV9PN-3" source="4pTZ_1JjUj0EYrdoV9PN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4pTZ_1JjUj0EYrdoV9PN-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-10" parent="4pTZ_1JjUj0EYrdoV9PN-3" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#cdeb8b;strokeColor=#36393d;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="46" y="45" as="geometry" />
+          <mxGeometry height="30" width="30" x="34" y="45" as="geometry" />
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-33" edge="1" parent="4pTZ_1JjUj0EYrdoV9PN-3" source="4pTZ_1JjUj0EYrdoV9PN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4pTZ_1JjUj0EYrdoV9PN-22" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-11" parent="4pTZ_1JjUj0EYrdoV9PN-3" style="rounded=0;whiteSpace=wrap;html=1;" value="Solicitud recibida modificación y/o actualización" vertex="1">
-          <mxGeometry height="40" width="94" x="116" y="40" as="geometry" />
+          <mxGeometry height="40" width="94" x="84" y="40" as="geometry" />
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-25" edge="1" parent="4pTZ_1JjUj0EYrdoV9PN-3" source="4pTZ_1JjUj0EYrdoV9PN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4pTZ_1JjUj0EYrdoV9PN-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pTZ_1JjUj0EYrdoV9PN-22" parent="4pTZ_1JjUj0EYrdoV9PN-3" style="rounded=0;whiteSpace=wrap;html=1;" value="Ingresa al Sistema RUAP" vertex="1">
-          <mxGeometry height="40" width="94" x="226" y="40" as="geometry" />
+        <mxCell id="k67g5eSftimuhh_CH0XP-1" connectable="0" parent="4pTZ_1JjUj0EYrdoV9PN-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Registro de&amp;nbsp;&lt;div&gt;Operaciones&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0196" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4pTZ_1JjUj0EYrdoV9PN-22" parent="4pTZ_1JjUj0EYrdoV9PN-3" style="rounded=0;whiteSpace=wrap;html=1;" value="Ingresa al sistema RUAP" vertex="1">
+          <mxGeometry height="40" width="94" x="194" y="40" as="geometry" />
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-30" edge="1" parent="4pTZ_1JjUj0EYrdoV9PN-3" source="4pTZ_1JjUj0EYrdoV9PN-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4pTZ_1JjUj0EYrdoV9PN-29" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -34,40 +39,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-24" parent="4pTZ_1JjUj0EYrdoV9PN-3" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffff88;strokeColor=#36393d;" value="¿Número patronal válido?" vertex="1">
-          <mxGeometry height="85" width="104" x="346" y="17.5" as="geometry" />
+          <mxGeometry height="85" width="104" x="406" y="19" as="geometry" />
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-29" parent="4pTZ_1JjUj0EYrdoV9PN-3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;No existen datos para el numero patronal xxx, por favor ingrese un código valido&lt;/span&gt;" vertex="1">
-          <mxGeometry height="90" width="114" x="566" y="15" as="geometry" />
+          <mxGeometry height="90" width="114" x="637" y="18" as="geometry" />
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-6" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#FFE599;strokeColor=#36393d;" value="RUAP" vertex="1">
-          <mxGeometry height="150" width="696" x="66" y="260" as="geometry" />
+          <mxGeometry height="150" width="754" x="30" y="260" as="geometry" />
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-36" edge="1" parent="4pTZ_1JjUj0EYrdoV9PN-6" source="4pTZ_1JjUj0EYrdoV9PN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4pTZ_1JjUj0EYrdoV9PN-35" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pTZ_1JjUj0EYrdoV9PN-26" parent="4pTZ_1JjUj0EYrdoV9PN-6" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Suspensión&amp;nbsp;&lt;div&gt;Cancelación&amp;nbsp;&lt;/div&gt;&lt;div&gt;Anulación&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Reanudación&amp;nbsp;&lt;/div&gt;&lt;div&gt;Modificación&lt;/div&gt;" vertex="1">
-          <mxGeometry height="85" width="94" x="351" y="50" as="geometry" />
+        <mxCell id="4pTZ_1JjUj0EYrdoV9PN-26" parent="4pTZ_1JjUj0EYrdoV9PN-6" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Suspensión&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Cancelación&amp;nbsp;&lt;/div&gt;&lt;div&gt;Anulación&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Reanudación&amp;nbsp;&lt;/div&gt;&lt;div&gt;Modificación&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="94" x="411" y="50" as="geometry" />
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-38" edge="1" parent="4pTZ_1JjUj0EYrdoV9PN-6" source="4pTZ_1JjUj0EYrdoV9PN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4pTZ_1JjUj0EYrdoV9PN-37" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-35" parent="4pTZ_1JjUj0EYrdoV9PN-6" style="rounded=0;whiteSpace=wrap;html=1;" value="Actualización de información" vertex="1">
-          <mxGeometry height="40" width="94" x="486" y="72.5" as="geometry" />
+          <mxGeometry height="40" width="94" x="550" y="72.5" as="geometry" />
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-37" parent="4pTZ_1JjUj0EYrdoV9PN-6" style="ellipse;html=1;shape=endState;fillColor=#ffcccc;strokeColor=#36393d;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="606" y="77.5" as="geometry" />
+          <mxGeometry height="30" width="30" x="677" y="77.5" as="geometry" />
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-27" edge="1" parent="1" source="4pTZ_1JjUj0EYrdoV9PN-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4pTZ_1JjUj0EYrdoV9PN-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pTZ_1JjUj0EYrdoV9PN-28" connectable="0" parent="4pTZ_1JjUj0EYrdoV9PN-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Registro de Operaciones" vertex="1">
+        <mxCell id="4pTZ_1JjUj0EYrdoV9PN-28" connectable="0" parent="4pTZ_1JjUj0EYrdoV9PN-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Todos los números patronales válidos&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2463" y="-1" as="geometry">
-            <mxPoint x="1" y="-15" as="offset" />
+            <mxPoint x="1" y="24" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4pTZ_1JjUj0EYrdoV9PN-34" connectable="0" parent="4pTZ_1JjUj0EYrdoV9PN-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Aplicable a todos los números patronales" vertex="1">
+        <mxCell id="4pTZ_1JjUj0EYrdoV9PN-34" connectable="0" parent="4pTZ_1JjUj0EYrdoV9PN-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Numero correcto" vertex="1">
           <mxGeometry relative="1" x="0.1429" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-35" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4pTZ_1JjUj0EYrdoV9PN-39" edge="1" parent="1" source="4pTZ_1JjUj0EYrdoV9PN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.547;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;" target="4pTZ_1JjUj0EYrdoV9PN-37">
