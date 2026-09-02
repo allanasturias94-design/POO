@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="7PyQj06hF14GxEC-NvQc">
-    <mxGraphModel dx="2207" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -343,7 +343,10 @@
         <mxCell id="aeEqbEL_la58Jb0Qrhpu-53" parent="PuRR1LuSJgoLwzaryRYl-2" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/gitlab-icons/1/Marquee_Selection.svg" value="" vertex="1">
           <mxGeometry height="20" width="20" x="231.5" y="490" as="geometry" />
         </mxCell>
-        <mxCell id="aeEqbEL_la58Jb0Qrhpu-83" parent="PuRR1LuSJgoLwzaryRYl-2" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; Ingresa la información correcta del documento de inspección que respalda el tipo de operación y presiona el botón &quot;Grabar&quot;.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="4JZkls3HrgM_9269s87f-2" edge="1" parent="PuRR1LuSJgoLwzaryRYl-2" source="aeEqbEL_la58Jb0Qrhpu-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4JZkls3HrgM_9269s87f-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeEqbEL_la58Jb0Qrhpu-83" parent="PuRR1LuSJgoLwzaryRYl-2" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; Ingresa la información correcta del documento de inspección que respalda el tipo de operación.&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="141.5" x="100.75" y="920" as="geometry" />
         </mxCell>
         <mxCell id="aeEqbEL_la58Jb0Qrhpu-86" edge="1" parent="PuRR1LuSJgoLwzaryRYl-2" source="aeEqbEL_la58Jb0Qrhpu-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="aeEqbEL_la58Jb0Qrhpu-83">
@@ -428,6 +431,9 @@
         <mxCell id="aeEqbEL_la58Jb0Qrhpu-323" parent="PuRR1LuSJgoLwzaryRYl-2" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/gitlab-icons/1/Marquee_Selection.svg" value="" vertex="1">
           <mxGeometry height="20" width="20" x="231.5" y="419" as="geometry" />
         </mxCell>
+        <mxCell id="4JZkls3HrgM_9269s87f-1" parent="PuRR1LuSJgoLwzaryRYl-2" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Presiona grabar&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="98.5" x="267" y="935" as="geometry" />
+        </mxCell>
         <mxCell id="PuRR1LuSJgoLwzaryRYl-39" edge="1" parent="1" source="PuRR1LuSJgoLwzaryRYl-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PuRR1LuSJgoLwzaryRYl-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -492,9 +498,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aeEqbEL_la58Jb0Qrhpu-192" edge="1" parent="1" source="aeEqbEL_la58Jb0Qrhpu-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="aeEqbEL_la58Jb0Qrhpu-85">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aeEqbEL_la58Jb0Qrhpu-196" edge="1" parent="1" source="aeEqbEL_la58Jb0Qrhpu-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aeEqbEL_la58Jb0Qrhpu-68" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aeEqbEL_la58Jb0Qrhpu-202" edge="1" parent="1" source="aeEqbEL_la58Jb0Qrhpu-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="aeEqbEL_la58Jb0Qrhpu-70">
@@ -709,6 +712,18 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="962.53" y="1404.35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4JZkls3HrgM_9269s87f-3" edge="1" parent="1" source="4JZkls3HrgM_9269s87f-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aeEqbEL_la58Jb0Qrhpu-68" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4JZkls3HrgM_9269s87f-4" edge="1" parent="1" source="aeEqbEL_la58Jb0Qrhpu-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4JZkls3HrgM_9269s87f-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="727" />
+              <mxPoint x="480" y="880" />
+              <mxPoint x="146.3" y="880" />
             </Array>
           </mxGeometry>
         </mxCell>
