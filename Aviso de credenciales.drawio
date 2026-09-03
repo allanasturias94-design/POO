@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="8nqlkwSPHTFf_8AP6NvO">
+    <mxGraphModel dx="1024" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#cce5ff;strokeColor=#36393d;" value="Usuario" vertex="1">
+          <mxGeometry height="570" width="320" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-7" edge="1" parent="3C0SxLbsEfw3gGp-_PSP-1" source="3C0SxLbsEfw3gGp-_PSP-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="3C0SxLbsEfw3gGp-_PSP-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-3" parent="3C0SxLbsEfw3gGp-_PSP-1" style="ellipse;fillColor=#cdeb8b;html=1;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="30" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-6" parent="3C0SxLbsEfw3gGp-_PSP-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ingresa al Portal del afiliado.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;https://portal-afiliado.igssgt.org/&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="144" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-8" parent="3C0SxLbsEfw3gGp-_PSP-1" style="shape=image;editableCssRules=.*;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgaGVpZ2h0PSIyNCIgd2lkdGg9IjI0Ij4mI3hhOzxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF85OTVfNDMpIj4mI3hhOzxwYXRoIGZpbGw9InVybCgjcGFpbnQwX2xpbmVhcl85OTVfNDMpIiBkPSJNMTAuODk2OSAxOC40MjE1QzExLjAxOTYgMTguMjk4MyAxMS4xNjYxIDE4LjIwMTUgMTEuMzI3NyAxOC4xMzdDMTEuNDg5MiAxOC4wNzI1IDExLjY2MjMgMTguMDQxNyAxMS44MzYyIDE4LjA0NjVDMTIuMjExOSAxOC4wNDY1IDEyLjQ5NDQgMTguMjE5IDEyLjY4MjMgMTguNTYyNUMxMi45MzE3IDE4LjgxMyAxMy4wNTggMTkuMTEgMTMuMDU4IDE5LjQ1MzVDMTMuMDU4IDE5Ljc5NyAxMi45MzE3IDIwLjA5NCAxMi42ODIzIDIwLjM0NDVMMTAuODk1NCAyMi4wNzg1QzEwLjI4MzIgMjIuNjk0MSA5LjU0NzE4IDIzLjE3MzEgOC43MzU4OCAyMy40ODRDNy45NTI5MSAyMy44MjkgNy4xNTQ5MiAyNCA2LjM0MDM5IDI0QzUuNTE0NDggMjMuOTk3NSA0LjY5ODM0IDIzLjgyMTcgMy45NDQ5IDIzLjQ4NEMzLjE5MzQ5IDIzLjE3MiAyLjUwNTIgMjIuNzA0IDEuODc4NTIgMjIuMDc4NUMxLjI2OTY0IDIxLjQ3OSAwLjc5MDM5NSAyMC43NjEyIDAuNDcwMzgyIDE5Ljk2OTVDMC4xNjEyNzkgMTkuMjEgMC4wMDE1Nzc3OSAxOC4zOTgyIDAgMTcuNTc4NUMwIDE2Ljc2NTUgMC4xNTYyOTMgMTUuOTY5IDAuNDcwMzgyIDE1LjE4NzVDMC43ODI5NjggMTQuNDA3NSAxLjI1MTg1IDEzLjcwMjUgMS44Nzg1MiAxMy4wNzg1TDUuNDQ3NzEgOS41NjI1QzYuMDc0MzkgOC45MzcgNi43NzkyMSA4LjQ2NzUgNy41NjA2OCA4LjE1NTVDOC4zMzE1NSA3LjgyMTIgOS4xNjIyOCA3LjY0NjE4IDEwLjAwMjggNy42NDFDMTAuODE3MyA3LjY0MSAxMS42MTUzIDcuODEyIDEyLjM5ODIgOC4xNTU1QzEzLjE4MTIgOC40NjkgMTMuODcxIDguOTM3IDE0LjQ2NDYgOS41NjI1QzE0LjcxNTYgOS44MTMgMTQuODQwMyAxMC4xMSAxNC44NDAzIDEwLjQ1MzVDMTQuODQwMyAxMC43OTcgMTQuNzE1NiAxMS4wOTQgMTQuNDY0NiAxMS4zNDNDMTQuMzQ5NCAxMS40NjMxIDE0LjIxMDcgMTEuNTU4MyAxNC4wNTcyIDExLjYyMjhDMTMuOTAzNyAxMS42ODczIDEzLjczODUgMTEuNzE5NyAxMy41NzE5IDExLjcxOEMxMy40MDU2IDExLjcxOTUgMTMuMjQwOCAxMS42ODcgMTMuMDg3NSAxMS42MjI1QzEyLjkzNDIgMTEuNTU4IDEyLjc5NTggMTEuNDYyOSAxMi42ODA4IDExLjM0M0MxMS45NTk0IDEwLjU2MyAxMS4wODMzIDEwLjE3MyAxMC4wNTA4IDEwLjE3M0M5LjAxNjkxIDEwLjE3MyA4LjEyNDIzIDEwLjU2MyA3LjM3MjgyIDExLjM0M0wzLjgwNjY0IDE0Ljg1OUMzLjAyNTE3IDE1LjU3OSAyLjYzNDQ0IDE2LjQ1MzUgMi42MzQ0NCAxNy40ODRDMi42MzQ0NCAxOC41MTYgMy4wMjUxNyAxOS40MjIgMy44MDY2NCAyMC4yMDM1QzQuNTI3OTkgMjAuOTUzNSA1LjQwNDEzIDIxLjMyODUgNi40MzY1NyAyMS4zMjg1QzcuNDcwNTEgMjEuMzI4NSA4LjM2MzE4IDIwLjk1MzUgOS4xMTQ1OSAyMC4yMDM1TDEwLjg5NTQgMTguNDJMMTAuODk2OSAxOC40MjE1Wk0yMi4wNzQ5IDEuOTIxNUMyMi43MDAxIDIuNTE1NSAyMy4xNzA0IDMuMjAyNSAyMy40ODMgMy45ODRDMjMuODI4NyA0Ljc2NTUgMjQgNS41NjIgMjQgNi4zNzVDMjQgNy4xODggMjMuODI3MiA3Ljk4NDUgMjMuNDgzIDguNzY2QzIzLjE3MDQgOS41MTYgMjIuNzAxNiAxMC4yMDMgMjIuMDc0OSAxMC44Mjg1TDE4LjU1MjMgMTQuMzQzQzE3Ljg5NDEgMTUgMTcuMTc0MiAxNS40ODMgMTYuMzkxMiAxNS43OThDMTUuNjE1MyAxNi4xMDg5IDE0Ljc4NjcgMTYuMjY3OCAxMy45NTA3IDE2LjI2NkMxMy4xMjk0IDE2LjI2NDUgMTIuMzE2MSAxNi4xMDUxIDExLjU1NTIgMTUuNzk2NUMxMC43ODE3IDE1LjQ2ODQgMTAuMDkxNiAxNC45NzE4IDkuNTM1MzggMTQuMzQzQzkuNDE4NTcgMTQuMjM1NCA5LjMyNSAxNC4xMDUxIDkuMjYwMzkgMTMuOTYwMkM5LjE5NTc5IDEzLjgxNTIgOS4xNjE1MiAxMy42NTg2IDkuMTU5NjcgMTMuNUM5LjE1OTY3IDEzLjE1NSA5LjI4NDQxIDEyLjg1OTUgOS41MzUzOCAxMi42MDlDOS42NDMzNSAxMi40OTIyIDkuNzc0MSAxMi4zOTg3IDkuOTE5NiAxMi4zMzQyQzEwLjA2NTEgMTIuMjY5NyAxMC4yMjIzIDEyLjIzNTYgMTAuMzgxNSAxMi4yMzRDMTAuNzI1NiAxMi4yMzQgMTEuMDIzMiAxMi4zNiAxMS4yNzI2IDEyLjYwOUMxMS42MTgzIDEyLjk4NCAxMi4wMjQgMTMuMjY2IDEyLjQ5NDQgMTMuNDUzNUMxMy40MTIgMTMuODI5NyAxNC40NDEyIDEzLjgyOTcgMTUuMzU4OCAxMy40NTM1QzE1LjgyOTIgMTMuMjY2IDE2LjI1MTUgMTIuOTg0IDE2LjYyNzIgMTIuNjA5TDIwLjE5NjQgOS4wNDY1QzIwLjk0NzggOC4zMjggMjEuMzIzNSA3LjQ1MzUgMjEuMzIzNSA2LjQyMTVDMjEuMzIzNSA1LjM5MSAyMC45NDc4IDQuNDg1IDIwLjE5NjQgMy43MDM1QzE5LjQ3NSAyLjk1MzUgMTguNTk4OSAyLjU3ODUgMTcuNTY2NCAyLjU3ODVDMTYuNTMyNSAyLjU3ODUgMTUuNjI0OCAyLjk1MzUgMTQuODQxOCAzLjcwMzVMMTMuMDU5NSA1LjQ4NEMxMi45NDQzIDUuNjA0MDggMTIuODA1NiA1LjY5OTMxIDEyLjY1MjEgNS43NjM4QzEyLjQ5ODUgNS44MjgzIDEyLjMzMzQgNS44NjA3IDEyLjE2NjggNS44NTlDMTIuMDAwMiA1Ljg2MDcgMTEuODM1MSA1LjgyODMgMTEuNjgxNiA1Ljc2MzhDMTEuNTI4IDUuNjk5MzEgMTEuMzg5NCA1LjYwNDA4IDExLjI3NDEgNS40ODRDMTEuMTUzOCA1LjM2OSAxMS4wNTg0IDUuMjMwNiAxMC45OTM4IDUuMDc3MzVDMTAuOTI5MiA0LjkyNDEgMTAuODk2NyA0Ljc1OTI2IDEwLjg5ODQgNC41OTNDMTAuODk4NCA0LjI0OTUgMTEuMDI0NyAzLjk1MjUgMTEuMjc0MSAzLjcwMzVMMTMuMDU5NSAxLjkyQzEzLjY4NDcgMS4yOTYgMTQuMzg5NSAwLjgyNjUgMTUuMTcyNCAwLjUxNDVDMTUuOTQyOSAwLjE4MDM5MyAxNi43NzMxIDAuMDA1MzgwMDYgMTcuNjEzIDBDMTguNDI3NiAwIDE5LjIyNTUgMC4xNzI1IDIwLjAwODUgMC41MTZDMjAuNzkgMC44MjggMjEuNDc5OCAxLjI5NiAyMi4wNzQ5IDEuOTIxNVoiLz4mI3hhOzwvZz4mI3hhOzxkZWZzPiYjeGE7PGxpbmVhckdyYWRpZW50IGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB5Mj0iMjQiIHgyPSIxMiIgeTE9IjAiIHgxPSIxMiIgaWQ9InBhaW50MF9saW5lYXJfOTk1XzQzIj4mI3hhOzxzdG9wIHN0b3AtY29sb3I9IiM1QjczOEIiLz4mI3hhOzxzdG9wIHN0b3AtY29sb3I9IiMyMjM1NDgiIG9mZnNldD0iMSIvPiYjeGE7PC9saW5lYXJHcmFkaWVudD4mI3hhOzxjbGlwUGF0aCBpZD0iY2xpcDBfOTk1XzQzIj4mI3hhOzxyZWN0IGZpbGw9IndoaXRlIiBoZWlnaHQ9IjI0IiB3aWR0aD0iMjQiLz4mI3hhOzwvY2xpcFBhdGg+JiN4YTs8L2RlZnM+JiN4YTs8L3N2Zz4=;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="90" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-31" edge="1" parent="3C0SxLbsEfw3gGp-_PSP-1" source="3C0SxLbsEfw3gGp-_PSP-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="3C0SxLbsEfw3gGp-_PSP-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-25" parent="3C0SxLbsEfw3gGp-_PSP-1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ingresa usuario y contraseña&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="144" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-32" edge="1" parent="3C0SxLbsEfw3gGp-_PSP-1" source="3C0SxLbsEfw3gGp-_PSP-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="3C0SxLbsEfw3gGp-_PSP-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-30" parent="3C0SxLbsEfw3gGp-_PSP-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Presiona el botón ingresar.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="144" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-29" parent="3C0SxLbsEfw3gGp-_PSP-1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=0;fillColor=#ffff88;strokeColor=#36393d;" value="¿Credenciales válidas?" vertex="1">
+          <mxGeometry height="67" width="150" x="129" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-42" edge="1" parent="3C0SxLbsEfw3gGp-_PSP-1" source="3C0SxLbsEfw3gGp-_PSP-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="3C0SxLbsEfw3gGp-_PSP-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-38" parent="3C0SxLbsEfw3gGp-_PSP-1" style="html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#ffcc99;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;sketch=0;shape=mxgraph.sitemap.error;" value="" vertex="1">
+          <mxGeometry height="70" width="120" x="8" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-39" edge="1" parent="3C0SxLbsEfw3gGp-_PSP-1" source="3C0SxLbsEfw3gGp-_PSP-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="3C0SxLbsEfw3gGp-_PSP-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-45" connectable="0" parent="3C0SxLbsEfw3gGp-_PSP-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.3958" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-40" parent="3C0SxLbsEfw3gGp-_PSP-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Usuario o contraseña incorrecta&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="4" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-58" edge="1" parent="3C0SxLbsEfw3gGp-_PSP-1" source="3C0SxLbsEfw3gGp-_PSP-50" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="3C0SxLbsEfw3gGp-_PSP-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-50" parent="3C0SxLbsEfw3gGp-_PSP-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Acepta el aviso" vertex="1">
+          <mxGeometry height="60" width="120" x="144" y="407" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-55" parent="3C0SxLbsEfw3gGp-_PSP-1" style="ellipse;html=1;shape=endState;fillColor=#FF0000;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="184" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;startSize=30;" value="Sistema&amp;nbsp;&lt;div&gt;Portal del Afiliado&lt;/div&gt;" vertex="1">
+          <mxGeometry height="570" width="320" x="360" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-21" parent="3C0SxLbsEfw3gGp-_PSP-2" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Sistema muestra la pantalla de inicio de sesión del Portal del Afiliado.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-43" parent="3C0SxLbsEfw3gGp-_PSP-2" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;Sistema ingresa a la página principal del Portal del Afiliado y&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;muestra un aviso de seguridad sobre la confidencialidad de las credenciales.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="205" x="77.5" y="313.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-48" parent="3C0SxLbsEfw3gGp-_PSP-2" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#ffcccc;strokeColor=#36393d;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;No compartas tus credenciales de acceso con terceros.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="95" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-47" edge="1" parent="3C0SxLbsEfw3gGp-_PSP-2" source="3C0SxLbsEfw3gGp-_PSP-43" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="3C0SxLbsEfw3gGp-_PSP-48" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="270" as="sourcePoint" />
+            <mxPoint x="200" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-22" edge="1" parent="1" source="3C0SxLbsEfw3gGp-_PSP-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="3C0SxLbsEfw3gGp-_PSP-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-26" edge="1" parent="1" source="3C0SxLbsEfw3gGp-_PSP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="3C0SxLbsEfw3gGp-_PSP-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-44" edge="1" parent="1" source="3C0SxLbsEfw3gGp-_PSP-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="3C0SxLbsEfw3gGp-_PSP-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-46" connectable="0" parent="3C0SxLbsEfw3gGp-_PSP-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Si" vertex="1">
+          <mxGeometry relative="1" x="-0.2398" y="-1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3C0SxLbsEfw3gGp-_PSP-57" edge="1" parent="1" source="3C0SxLbsEfw3gGp-_PSP-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="3C0SxLbsEfw3gGp-_PSP-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
