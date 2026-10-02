@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="vjvn8ImjHFiJVRZy4qvk">
-    <mxGraphModel dx="1963" dy="1911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2207" dy="2070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry height="55" width="82.5" x="-45.75" y="67.5" as="geometry" />
         </mxCell>
         <mxCell id="x9wt_6wOhkHNzyyf0FNh-78" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="DIAGRAMA DE INTEGRACIÓN DE SISTEMAS AL REGISTRO ÚNICO DE AFILIADOS Y DERECHOHABIENTES" vertex="1">
-          <mxGeometry height="80" width="310" x="-730" y="-80" as="geometry" />
+          <mxGeometry height="80" width="310" x="-282.5" y="-110" as="geometry" />
         </mxCell>
         <mxCell id="wjiRQol3Nm3h6TrkbhXB-41" edge="1" parent="1" source="x9wt_6wOhkHNzyyf0FNh-61" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.515;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.005;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" target="wjiRQol3Nm3h6TrkbhXB-13">
           <mxGeometry relative="1" as="geometry">
@@ -40,9 +40,6 @@
         </mxCell>
         <mxCell id="x9wt_6wOhkHNzyyf0FNh-89" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(77, 77, 77);&quot;&gt;&lt;b&gt;- No afiliación&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(77, 77, 77);&quot;&gt;&lt;b&gt;- Nombre&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;- NIT&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="55" width="82.5" x="-18.66" y="351" as="geometry" />
-        </mxCell>
-        <mxCell id="x9wt_6wOhkHNzyyf0FNh-101" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Fuentes de datos" vertex="1">
-          <mxGeometry height="20" width="170" x="-240" y="-20" as="geometry" />
         </mxCell>
         <mxCell id="Y3KpXFO57RGvN5zcpnZI-2" edge="1" parent="1" source="wjiRQol3Nm3h6TrkbhXB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="wjiRQol3Nm3h6TrkbhXB-113">
           <mxGeometry relative="1" as="geometry">
