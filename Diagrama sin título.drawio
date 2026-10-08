@@ -1,55 +1,77 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="89Wx3Tb7yhNOMkwhFRlV">
-    <mxGraphModel dx="1024" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1707" dy="1052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-Vv4FWUDlogSVV_HiPX1-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#cce5ff;strokeColor=#36393d;" value="Patrono" vertex="1">
-          <mxGeometry height="1040" width="200" x="90" y="40" as="geometry" />
+        <mxCell id="-Vv4FWUDlogSVV_HiPX1-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#cce5ff;strokeColor=#36393d;" value="Solicitante" vertex="1">
+          <mxGeometry height="1040" width="320" y="40" as="geometry" />
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-16" edge="1" parent="-Vv4FWUDlogSVV_HiPX1-1" source="-Vv4FWUDlogSVV_HiPX1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-Vv4FWUDlogSVV_HiPX1-13" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-4" parent="-Vv4FWUDlogSVV_HiPX1-1" style="ellipse;fillColor=#cdeb8b;html=1;strokeColor=#36393d;" value="Inicio" vertex="1">
-          <mxGeometry height="30" width="30" x="85" y="58" as="geometry" />
+          <mxGeometry height="30" width="30" x="130" y="58" as="geometry" />
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-13" parent="-Vv4FWUDlogSVV_HiPX1-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Presenta documentación para inscripción.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="40" y="118" as="geometry" />
+          <mxGeometry height="60" width="120" x="85" y="118" as="geometry" />
         </mxCell>
-        <mxCell id="-Vv4FWUDlogSVV_HiPX1-68" parent="-Vv4FWUDlogSVV_HiPX1-1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=0;fillColor=#ffff88;strokeColor=#36393d;" value="¿Documento a notificar?" vertex="1">
-          <mxGeometry height="80" width="110" x="45" y="730" as="geometry" />
+        <mxCell id="Lb9Hjmp9-4ZWKylWDY1L-5" edge="1" parent="-Vv4FWUDlogSVV_HiPX1-1" source="-Vv4FWUDlogSVV_HiPX1-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Lb9Hjmp9-4ZWKylWDY1L-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lb9Hjmp9-4ZWKylWDY1L-6" connectable="0" parent="Lb9Hjmp9-4ZWKylWDY1L-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Si" vertex="1">
+          <mxGeometry relative="1" x="-0.32" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Vv4FWUDlogSVV_HiPX1-68" parent="-Vv4FWUDlogSVV_HiPX1-1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=0;fillColor=#ffff88;strokeColor=#36393d;" value="¿Firma el documento?" vertex="1">
+          <mxGeometry height="80" width="110" x="180" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Lb9Hjmp9-4ZWKylWDY1L-11" edge="1" parent="-Vv4FWUDlogSVV_HiPX1-1" source="Lb9Hjmp9-4ZWKylWDY1L-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Lb9Hjmp9-4ZWKylWDY1L-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lb9Hjmp9-4ZWKylWDY1L-4" parent="-Vv4FWUDlogSVV_HiPX1-1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Recibe y firma la cedula de notificación&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="Lb9Hjmp9-4ZWKylWDY1L-10" parent="-Vv4FWUDlogSVV_HiPX1-1" style="ellipse;html=1;shape=endState;fillColor=#FF0000;strokeColor=#36393d;" value="Fin" vertex="1">
+          <mxGeometry height="30" width="30" x="55" y="990" as="geometry" />
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#cce5ff;strokeColor=#36393d;" value="Analista" vertex="1">
-          <mxGeometry height="1040" width="200" x="290" y="40" as="geometry" />
+          <mxGeometry height="1040" width="190" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-Vv4FWUDlogSVV_HiPX1-63" parent="-Vv4FWUDlogSVV_HiPX1-2" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Imprime la cedula y completa información según corresponda&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="34" y="740" as="geometry" />
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-20" edge="1" parent="-Vv4FWUDlogSVV_HiPX1-2" source="-Vv4FWUDlogSVV_HiPX1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-Vv4FWUDlogSVV_HiPX1-19" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-17" parent="-Vv4FWUDlogSVV_HiPX1-2" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Realiza el proceso de inscripción del patrono.&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="40" y="118" as="geometry" />
+          <mxGeometry height="60" width="120" x="34" y="118" as="geometry" />
         </mxCell>
-        <mxCell id="-Vv4FWUDlogSVV_HiPX1-19" parent="-Vv4FWUDlogSVV_HiPX1-2" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Registra el establecimiento y/o contrato&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="40" y="210" as="geometry" />
+        <mxCell id="-Vv4FWUDlogSVV_HiPX1-19" parent="-Vv4FWUDlogSVV_HiPX1-2" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;inscribe el establecimiento y/o contrato en el SIGSS.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="34" y="210" as="geometry" />
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-27" parent="-Vv4FWUDlogSVV_HiPX1-2" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ingresa a la herramienta &lt;b&gt;Cedula de Notificación&lt;/b&gt; e ingresa el numero patronal.&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="40" y="340" as="geometry" />
+          <mxGeometry height="60" width="120" x="34" y="340" as="geometry" />
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-45" parent="-Vv4FWUDlogSVV_HiPX1-2" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Selecciona el tipo de documento, ingresa la información correspondiente al numero patronal y presiona el botón &lt;b&gt;Vista previa.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="120" x="40" y="520" as="geometry" />
+          <mxGeometry height="100" width="120" x="34" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="-Vv4FWUDlogSVV_HiPX1-63" parent="-Vv4FWUDlogSVV_HiPX1-2" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Imprime la cedula y completa información según corresponda&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="40" y="740" as="geometry" />
+        <mxCell id="Lb9Hjmp9-4ZWKylWDY1L-2" parent="-Vv4FWUDlogSVV_HiPX1-2" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Marca la casilla según corresponda el caso de rechazo, firma y sella como fe consentimiento.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="134" x="27" y="890" as="geometry" />
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#CCFFE6;strokeColor=#36393d;" value="Sistema Integrado de Gestión del Seguro Social&lt;div&gt;(SIGSS)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="1040" width="390" x="490" y="40" as="geometry">
+          <mxGeometry height="1040" width="390" x="509" y="40" as="geometry">
             <mxRectangle height="30" width="300" x="490" y="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-21" parent="-Vv4FWUDlogSVV_HiPX1-3" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font size=&quot;1&quot;&gt;Registra la inscripción del patrono y genera resolución.&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="40" y="118" as="geometry" />
+          <mxGeometry height="60" width="120" x="135" y="118" as="geometry" />
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-25" parent="-Vv4FWUDlogSVV_HiPX1-3" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font size=&quot;1&quot;&gt;Registra la inscripción del establecimiento y/o contrato, genera numero patronal y constancia de registro único.&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="120" x="40" y="270" as="geometry" />
+          <mxGeometry height="70" width="120" x="135" y="270" as="geometry" />
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-32" edge="1" parent="-Vv4FWUDlogSVV_HiPX1-3" source="-Vv4FWUDlogSVV_HiPX1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-Vv4FWUDlogSVV_HiPX1-31" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -94,10 +116,10 @@
             <mxPoint x="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Vv4FWUDlogSVV_HiPX1-43" parent="-Vv4FWUDlogSVV_HiPX1-3" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=left;fillColor=#ffff88;strokeColor=#36393d;" value="&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Tipo Documento:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Notificado a:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Documento de Identificación:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Relación con el Patrono:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Municipio:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Departamento:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Dirección:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;No. de Hojas:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Nombre de quién recibe:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Motivo de la actuación:&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Causa de no notificación:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="195" width="120" x="260" y="178" as="geometry" />
+        <mxCell id="-Vv4FWUDlogSVV_HiPX1-43" parent="-Vv4FWUDlogSVV_HiPX1-3" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=left;fillColor=#FFE6CC;strokeColor=#36393d;" value="&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Tipo Documento:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Notificado a:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Documento de Identificación:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Relación con el Patrono:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Municipio:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Departamento:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Dirección:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;No. de Hojas:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Nombre de quién recibe:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Motivo de la actuación:&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Causa de no notificación:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="195" width="120" x="263" y="178" as="geometry" />
         </mxCell>
-        <mxCell id="-Vv4FWUDlogSVV_HiPX1-44" edge="1" parent="-Vv4FWUDlogSVV_HiPX1-3" source="-Vv4FWUDlogSVV_HiPX1-31" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="-Vv4FWUDlogSVV_HiPX1-43" value="">
+        <mxCell id="-Vv4FWUDlogSVV_HiPX1-44" edge="1" parent="-Vv4FWUDlogSVV_HiPX1-3" source="-Vv4FWUDlogSVV_HiPX1-31" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.874;exitY=-0.009;exitDx=0;exitDy=0;entryX=0.591;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="-Vv4FWUDlogSVV_HiPX1-43" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="270" y="423" as="sourcePoint" />
             <mxPoint x="320" y="373" as="targetPoint" />
@@ -120,7 +142,7 @@
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-59" edge="1" parent="-Vv4FWUDlogSVV_HiPX1-3" source="-Vv4FWUDlogSVV_HiPX1-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="-Vv4FWUDlogSVV_HiPX1-48">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="290" y="660" />
+              <mxPoint x="290" y="664" />
               <mxPoint x="290" y="570" />
             </Array>
             <mxPoint x="280" y="560" as="targetPoint" />
@@ -132,10 +154,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-51" parent="-Vv4FWUDlogSVV_HiPX1-3" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=0;fillColor=#ffff88;strokeColor=#36393d;" value="&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="50" x="170" y="640" as="geometry" />
+          <mxGeometry height="40" width="50" x="170" y="644" as="geometry" />
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-55" parent="-Vv4FWUDlogSVV_HiPX1-3" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Muestra una ventana de confirmación de la operación realizada.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="135" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="Lb9Hjmp9-4ZWKylWDY1L-12" parent="-Vv4FWUDlogSVV_HiPX1-3" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=27;verticalAlign=top;align=left;fillColor=#FFE6CC;strokeColor=#36393d;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;a) Ante la negativa expresa de recibir la cedula de notificación.&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;b) Otros&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;--------------------------o---------------------------&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Dirección Inexacta&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Incongruencia de datos&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Persona fuera del país&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Lugar desocupado&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Persona a notificar falleció&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Otros&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="195" width="225" x="82.5" y="827.5" as="geometry" />
         </mxCell>
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-18" edge="1" parent="1" source="-Vv4FWUDlogSVV_HiPX1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-Vv4FWUDlogSVV_HiPX1-17" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -146,28 +171,10 @@
         <mxCell id="-Vv4FWUDlogSVV_HiPX1-24" edge="1" parent="1" source="-Vv4FWUDlogSVV_HiPX1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="-Vv4FWUDlogSVV_HiPX1-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-Vv4FWUDlogSVV_HiPX1-26" edge="1" parent="1" source="-Vv4FWUDlogSVV_HiPX1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-Vv4FWUDlogSVV_HiPX1-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-Vv4FWUDlogSVV_HiPX1-28" edge="1" parent="1" source="-Vv4FWUDlogSVV_HiPX1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-Vv4FWUDlogSVV_HiPX1-27" value="">
+        <mxCell id="-Vv4FWUDlogSVV_HiPX1-28" edge="1" parent="1" source="-Vv4FWUDlogSVV_HiPX1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="-Vv4FWUDlogSVV_HiPX1-27" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="410.03" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-Vv4FWUDlogSVV_HiPX1-30" edge="1" parent="1" source="-Vv4FWUDlogSVV_HiPX1-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-Vv4FWUDlogSVV_HiPX1-29" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="390" y="480" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-Vv4FWUDlogSVV_HiPX1-46" edge="1" parent="1" source="-Vv4FWUDlogSVV_HiPX1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-Vv4FWUDlogSVV_HiPX1-45" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="780" y="530" />
-              <mxPoint x="390" y="530" />
+              <mxPoint x="685" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -181,6 +188,42 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="810" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-Vv4FWUDlogSVV_HiPX1-26" edge="1" parent="1" source="-Vv4FWUDlogSVV_HiPX1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-Vv4FWUDlogSVV_HiPX1-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="516" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lb9Hjmp9-4ZWKylWDY1L-1" edge="1" parent="1" source="-Vv4FWUDlogSVV_HiPX1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-Vv4FWUDlogSVV_HiPX1-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lb9Hjmp9-4ZWKylWDY1L-13" edge="1" parent="1" source="Lb9Hjmp9-4ZWKylWDY1L-2" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Lb9Hjmp9-4ZWKylWDY1L-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="910" as="sourcePoint" />
+            <mxPoint x="480" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lb9Hjmp9-4ZWKylWDY1L-14" edge="1" parent="1" source="-Vv4FWUDlogSVV_HiPX1-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Lb9Hjmp9-4ZWKylWDY1L-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lb9Hjmp9-4ZWKylWDY1L-15" connectable="0" parent="Lb9Hjmp9-4ZWKylWDY1L-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="0.2963" as="geometry">
+            <mxPoint x="-32" y="-65" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lb9Hjmp9-4ZWKylWDY1L-16" edge="1" parent="1" source="Lb9Hjmp9-4ZWKylWDY1L-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Lb9Hjmp9-4ZWKylWDY1L-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Vv4FWUDlogSVV_HiPX1-30" edge="1" parent="1" source="-Vv4FWUDlogSVV_HiPX1-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-Vv4FWUDlogSVV_HiPX1-29" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="480" />
+            </Array>
+            <mxPoint x="521.0000000000002" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lb9Hjmp9-4ZWKylWDY1L-17" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;fillColor=#FFFFFF;" value="Diagrama&amp;nbsp;&lt;div&gt;Cedula de Notificación&lt;/div&gt;" vertex="1">
+          <mxGeometry height="1080" width="899" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
