@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="bsJfkwJBcfCkVNN8c2lG">
+    <mxGraphModel dx="1172" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="blWXdNfFgoD_0815swlC-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" value="Afiliado" vertex="1">
+          <mxGeometry height="570" width="220" x="180" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-6" edge="1" parent="blWXdNfFgoD_0815swlC-1" source="blWXdNfFgoD_0815swlC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="blWXdNfFgoD_0815swlC-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-4" parent="blWXdNfFgoD_0815swlC-1" style="ellipse;fillColor=#cdeb8b;html=1;strokeColor=#36393d;" value="Inicio" vertex="1">
+          <mxGeometry height="30" width="30" x="95" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-5" parent="blWXdNfFgoD_0815swlC-1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Accede al Portal del Afiliado mediante el siguiente enlace: &lt;a href=&quot;https://portal-afiliado.igssgt.org/?utm_source=chatgpt.com&quot;&gt;https://portal-afiliado.igssgt.org/&lt;/a&gt; e inicia sesión ingresando sus credenciales de acceso.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="150" x="35" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-26" edge="1" parent="blWXdNfFgoD_0815swlC-1" source="blWXdNfFgoD_0815swlC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="blWXdNfFgoD_0815swlC-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-22" parent="blWXdNfFgoD_0815swlC-1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Accede a la pantalla de inicio del Portal del Afiliado&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="150" x="35" y="237.5" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-25" parent="blWXdNfFgoD_0815swlC-1" style="ellipse;html=1;shape=endState;fillColor=#FF0000;strokeColor=#36393d;" value="Fin" vertex="1">
+          <mxGeometry height="30" width="30" x="95" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-27" parent="blWXdNfFgoD_0815swlC-1" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Presiona el botón Actualizar datos&amp;nbsp;para ingresar al formulario correspondiente, completar la información requerida y finalizar el proceso de solicitud de actualización.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="150" x="35" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-29" edge="1" parent="blWXdNfFgoD_0815swlC-1" source="blWXdNfFgoD_0815swlC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="blWXdNfFgoD_0815swlC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="Portal del Afiliado" vertex="1">
+          <mxGeometry height="570" width="200" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-17" edge="1" parent="blWXdNfFgoD_0815swlC-2" source="blWXdNfFgoD_0815swlC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="blWXdNfFgoD_0815swlC-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-9" parent="blWXdNfFgoD_0815swlC-2" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Muestra una alerta de seguridad en la que se advierte al usuario sobre la importancia de no compartir sus credenciales de acceso con terceros.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="150" x="25" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-11" parent="blWXdNfFgoD_0815swlC-2" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Muestra una alerta informativa sobre la actualización anual obligatoria de datos, indicando al afiliado que debe actualizar su información para continuar utilizando el Portal del Afiliado, siempre que no haya realizado dicha actualización durante el último año.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="150" x="25" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-19" edge="1" parent="blWXdNfFgoD_0815swlC-2" source="blWXdNfFgoD_0815swlC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="blWXdNfFgoD_0815swlC-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-20" connectable="0" parent="blWXdNfFgoD_0815swlC-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="SI" vertex="1">
+          <mxGeometry relative="1" x="-0.3086" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-16" parent="blWXdNfFgoD_0815swlC-2" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffff88;strokeColor=#36393d;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;¿El afiliado realizó la actualización de datos durante el último año?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="165" x="17.5" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-10" edge="1" parent="1" source="blWXdNfFgoD_0815swlC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="blWXdNfFgoD_0815swlC-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-23" edge="1" parent="1" source="blWXdNfFgoD_0815swlC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="blWXdNfFgoD_0815swlC-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-24" connectable="0" parent="blWXdNfFgoD_0815swlC-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.171" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blWXdNfFgoD_0815swlC-28" edge="1" parent="1" source="blWXdNfFgoD_0815swlC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="blWXdNfFgoD_0815swlC-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
